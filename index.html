@@ -63,6 +63,8 @@
         productName: "ppj",
         productVersion: "0.1.0",
         showBanner: unityShowBanner,
+        decompressorFallback: false,
+        devicePixelRatio: 1,
         // errorHandler: function(err, url, line) {
         //    alert("error " + err + " occurred at line " + line);
         //    // Return 'true' if you handled this error and don't want Unity
@@ -70,6 +72,7 @@
         //    return true;
         // },
       };
+    
 
       // By default, Unity keeps WebGL canvas render target size matched with
       // the DOM size of the canvas element (scaled by window.devicePixelRatio)
